@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../base.css">
+    <title>Compositions</title>
+</head>
+
+<body>
+
+<!-- Main -->
+<div id="main">
+    <div id="menu">
+        <ul id="mainNav">
+            <li><a href="../index.html">Головна</a></li> 
+            <li><a href="../show_data.php">Видача даних</a></li>
+            <li><a href="add.html">Занесення даних</a></li>
+        <li><a href="/delete/delete.html">Видалення даних</a></li>
+        </ul>
+    </div>
+</div>
+
+<br>
+
+<div class="conteiner">
+    <form action="add_to_compositions.php"  method="post">
+            <p>Id альбому: <input type="text" name="alb_id" /></p>
+            <p>№ в альбомі: <input type="text" name="num_in_album"/></p>
+             <p>Назва композиції: <input type="text" name="title" /></p>
+            <p>Час звучання: <input type="text" name="time_len" pleaceholder="HH-MM-SS"/></p>
+            <p><input type="submit" value="Внести" title="Відправити"></p>
+    </form>
+</div>
+
+
+<!-- /Main -->
+
+</body>
+</html>
+

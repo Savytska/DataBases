@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../base.css">
+    <title>Albums</title>
+</head>
+
+<body>
+
+<!-- Main -->
+<div id="main">
+    <div id="menu">
+        <ul id="mainNav">
+            <li><a href="../index.html">Головна</a></li> 
+            <li><a href="../show_data.php">Видача даних</a></li>
+            <li><a href="add.html">Занесення даних</a></li>
+            <li><a href="/delete/delete.html">Видалення даних</a></li>
+        </ul>
+    </div>
+</div>
+
+<br>
+
+<div class="conteiner">
+    <form action="add_to_albums.php"  method="post">
+            <p>Id жанру: <input type="text" name="genre_id" /></p>
+            <p>Id групи: <input type="text" name="band_id"/></p>
+             <p>Назва альбому: <input type="text" name="name" /></p>
+            <p>Дата виходу: <input type="text" name="pud_date" pleaceholder="YYYY-MM-DD"/></p>
+            <p><input type="submit" value="Внести" title="Відправити"></p>
+    </form>
+</div>
+
+
+<!-- /Main -->
+
+</body>
+</html>
+

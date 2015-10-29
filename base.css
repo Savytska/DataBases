@@ -1,0 +1,138 @@
+/*Основні селектори*/
+body { font: 16px Cambria; }
+
+h3 { color: #003366; }
+
+a{ text-decoration: none; color: #00f87c; }
+
+a:hover{
+    color: #f80000; 
+}
+
+caption {
+    font-size: 25px;
+}
+
+/*Головне меню*/
+#main { 
+    margin: 0 auto; 
+    border: 0px solid #38e63f;    
+    width: 570px; 
+    height: 100%; 
+    display: block;
+} 
+
+
+/*#menu { 
+    width: 100%; 
+    display: block; 
+    float: left; 
+    height: 40px; 
+} */
+
+ul#mainNav { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    float: left; 
+    width: 100%; 
+    border: 3px solid #38e63f;
+    background: #38e63f;
+    background: linear-gradient;
+    border-radius: 10px;    
+} 
+
+
+ul#mainNav li { 
+    display: inline; 
+} 
+
+
+ul#mainNav a { 
+    background: #38e63f; 
+    float: left; 
+    display: block; 
+    color: #f5f5f5; 
+    border-right: 1px solid #e0efe1; 
+    padding: 0.2em 1em; 
+    text-decoration:inherit; 
+    font-weight:bold;
+} 
+
+
+ul#mainNav a:hover { 
+    background: #69C; 
+    color: #000; 
+}
+
+/*Додавання даних*/
+.conteiner {
+    display: block;
+    text-align: center;
+    margin: 22px auto;
+    border: 10px solid #38e63f;
+    max-width: 782px;
+}
+
+form p {
+    text-align: right;
+    margin-right: 35%;
+    text-transform: uppercase;
+}
+
+/*Кнопка "Повернутися" */
+.back {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    margin-left: 35%;
+    padding: 10px; 
+    border-radius: 10px;
+    background: #38e63f; 
+    color: #fff; 
+    width: 30%; 
+}
+
+table {
+    text-align: center;    
+}
+
+/*Виведення даних*/
+.compositions{
+    position: absolute;
+    width: 400px; 
+    border: 1px solid #69C; 
+}
+
+
+.bands{
+    position: absolute;
+    width: 400px; 
+    border: 1px solid #69C;
+    margin-left: 410px;
+}
+
+
+.albums{
+    position: absolute;
+    width: 400px; 
+    border: 1px solid #69C; 
+    margin-left: 820px; 
+}
+
+
+.genres{
+    position: absolute;
+    width: 400px; 
+    border: 1px solid #69C; 
+    margin-left: 1240px;
+}
+
+
+.great {
+    color: #332d2d;
+    font-size: 35px;
+    font-weight:bold; 
+    max-width: 800px;
+    text-align: center;
+} 
+

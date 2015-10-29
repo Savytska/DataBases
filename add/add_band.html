@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../base.css">
+    <title>Bands</title>
+</head>
+
+<body>
+
+<!-- Main -->
+<div id="main">
+    <div id="menu">
+        <ul id="mainNav">
+            <li><a href="../index.html">Головна</a></li> 
+            <li><a href="../show_data.php">Видача даних</a></li>
+            <li><a href="add.html">Занесення даних</a></li>
+            <li><a href="/delete/delete.html">Видалення даних</a></li>
+        </ul>
+    </div>
+</div>
+
+<br>
+
+<div class="conteiner">
+    <form action="add_to_bands.php"  method="post">
+            <p>Назва групи: <input type="text" name="band_name" /></p>
+            <p>Дата створення: <input type="text" name="date_bd" pleaceholder="YYYY-MM-DD" /></p>
+            <p><input type="submit" value="Внести" title="Відправити"></p>
+    </form>
+</div>
+
+
+<!-- /Main -->
+
+</body>
+</html>
+
